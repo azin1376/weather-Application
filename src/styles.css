@@ -1,0 +1,81 @@
+body {
+  background-image: url("../images/pexels-kushal-kumar-13079565\ \(1\).jpg");
+  background-size: 1920px 1080px;
+  opacity: 0.6;
+}
+.container {
+  background-color: #fff;
+
+  width: 660px;
+  font-family: "Times New Roman", Times, serif;
+  border: 2px solid gray;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  margin: 50px auto;
+}
+#search {
+  margin-top: 30px;
+}
+.search-bar {
+  margin-left: 48px;
+  width: 350px;
+  border: 2px solid #1f6f78;
+  border-radius: 15px;
+}
+.search-icon {
+  position: relative;
+  right: 35px;
+}
+.search-button {
+  font-size: 17px;
+
+  width: 80px;
+  border: 1px solid #118a7e;
+  border-radius: 20px;
+  background-color: #118a7e;
+  color: #fff;
+}
+.current-button {
+  font-size: 17px;
+
+  width: 80px;
+  border: 1px solid #3baea0;
+  border-radius: 20px;
+  background-color: #3baea0;
+  color: #fff;
+}
+.position {
+  position: relative;
+  bottom: 10px;
+}
+.list-styling {
+  margin: 5px 20px;
+  font-size: 20px;
+  color: #9ba6a5;
+  list-style: none;
+}
+.col h1 {
+  display: inline;
+}
+.col h3 {
+  display: inline;
+  font-size: 14px;
+  position: relative;
+  bottom: 20px;
+  color: #9ba6a5;
+}
+.spacing {
+  margin: 5px 35px;
+}
+.u-styling1 {
+  color: #757a79;
+  list-style: none;
+}
+.days {
+  text-align: center;
+  color: #757a79;
+  margin-bottom: 20px;
+}
+.f-size {
+  font-weight: bold;
+}
