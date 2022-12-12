@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3e6ade749e.js"
+      crossorigin="anonymous"
+    ></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="border">
+      <form id="search">
+      <div class="position">
+        <input
+          type="search"
+          class="search-bar"
+          placeholder=" Enter a city here"
+          id="search-bar"
+        />
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <button class="search-button" type="submit">Search</button>
+        <button class="current-button" id="current">Current</button>
+      </form>
+      </div>
+      <div>
+        <h1  class="city-name" id="search-input"></h1>
+
+        <ul class="list-styling">     
+            <li id="day-time"> </li>
+            <li id="description"></li>
+        </ul>
+      </div>
+      <div class="row spacing">
+        <div class="col">
+          <img  src="images/fog.png" alt="fog" class="image" />
+          <span  id="deg"></span>
+        </div>
+        <div class="col">
+          <ul class="u-styling1">
+            <li id="humidity"> </li>
+            <li id="wind-speed"> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row spacing">
+          <div class="col days">
+          Fri
+          <br />
+          <img src="images/partly_cloudy.png" />
+          <span class="f-size">28°</span> 12°
+        </div>
+           <div class="col days">
+          Sat
+          <br/>
+          <img src="images/partly_cloudy.png" />
+          <span class="f-size">28°</span> 12°
+        </div>
+        
+        <div class="col days">
+          Sun
+          <img src="images/sunny.png" />
+          <span class="f-size">25°</span> 11°
+        </div>
+        <div class="col days">
+          Mon
+          <img src="images/sunny.png" />
+          <span class="f-size">26°</span> 11°
+        </div>
+        <div class="col days">
+          Tue
+          <img src="images/sunny.png" />
+          <span class="f-size">28°</span> 12°
+        </div>
+        <div class="col days">
+          Wed
+          <img src="images/partly_cloudy.png" />
+          <span class="f-size">28°</span> 12°
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
+
