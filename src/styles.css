@@ -3,24 +3,28 @@ body {
   background-size: 1920px 1080px;
   opacity: 0.6;
 }
-.container {
+.border {
   background-color: #fff;
-
   width: 660px;
   font-family: "Times New Roman", Times, serif;
   border: 2px solid gray;
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
   margin: 50px auto;
+  padding: 5px;
 }
 #search {
   margin-top: 30px;
 }
 .search-bar {
   margin-left: 48px;
-  width: 350px;
+  width: 370px;
   border: 2px solid #1f6f78;
   border-radius: 15px;
+  padding: 5px 10px;
+}
+.search-bar:hover {
+  opacity: 0.7;
 }
 .search-icon {
   position: relative;
@@ -28,49 +32,54 @@ body {
 }
 .search-button {
   font-size: 17px;
-
   width: 80px;
   border: 1px solid #118a7e;
   border-radius: 20px;
   background-color: #118a7e;
   color: #fff;
+  padding: 5px 10px;
+  transition: all 200ms ease-in-out;
+}
+.search-button:hover {
+  opacity: 0.7;
 }
 .current-button {
   font-size: 17px;
-
+  padding: 5px 10px;
   width: 80px;
   border: 1px solid #3baea0;
   border-radius: 20px;
   background-color: #3baea0;
   color: #fff;
+  transition: all 200ms ease-in-out;
+}
+.current-button:hover {
+  opacity: 0.7;
 }
 .position {
   position: relative;
   bottom: 10px;
 }
-.list-styling {
-  margin: 5px 20px;
+.city-name {
+  margin: 5px 52px;
   font-size: 20px;
   color: #9ba6a5;
   list-style: none;
 }
-.col h1 {
-  display: inline;
-}
-.col h3 {
-  display: inline;
-  font-size: 14px;
-  position: relative;
-  bottom: 20px;
+.list-styling {
+  font-size: 20px;
   color: #9ba6a5;
+  list-style: none;
+  margin: 0px 20px;
 }
 .spacing {
-  margin: 5px 35px;
+  margin: 0px 30px;
 }
 .u-styling1 {
   color: #757a79;
   list-style: none;
 }
+
 .days {
   text-align: center;
   color: #757a79;
@@ -78,4 +87,10 @@ body {
 }
 .f-size {
   font-weight: bold;
+}
+#deg {
+  font-size: 30px;
+}
+.image {
+  margin-left: 5px;
 }
