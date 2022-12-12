@@ -1,16 +1,17 @@
 body {
-  background-image: url("../images/pexels-kushal-kumar-13079565\ \(1\).jpg");
-  background-size: 1920px 1080px;
-  opacity: 0.6;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%) fixed;
+}
+.bc-img {
+  background: url("../images/Untitled\ design\(3\).png");
+  background-size: 660px 350px;
 }
 .border {
-  background-color: #fff;
   width: 660px;
   font-family: "Times New Roman", Times, serif;
   border: 2px solid gray;
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-  margin: 50px auto;
+  margin: 200px auto;
   padding: 5px;
 }
 #search {
@@ -32,11 +33,11 @@ body {
 }
 .search-button {
   font-size: 17px;
-  width: 80px;
-  border: 1px solid #118a7e;
+  width: 90px;
+  border: 2px solid #000;
   border-radius: 20px;
-  background-color: #118a7e;
-  color: #fff;
+  background-color: #cfffff;
+  color: #000;
   padding: 5px 10px;
   transition: all 200ms ease-in-out;
 }
@@ -46,11 +47,11 @@ body {
 .current-button {
   font-size: 17px;
   padding: 5px 10px;
-  width: 80px;
-  border: 1px solid #3baea0;
+  width: 90px;
+  border: 2px solid #000;
   border-radius: 20px;
   background-color: #3baea0;
-  color: #fff;
+  color: #000;
   transition: all 200ms ease-in-out;
 }
 .current-button:hover {
@@ -63,12 +64,12 @@ body {
 .city-name {
   margin: 5px 52px;
   font-size: 20px;
-  color: #9ba6a5;
+  color: #fff;
   list-style: none;
 }
 .list-styling {
   font-size: 20px;
-  color: #9ba6a5;
+  color: #fff;
   list-style: none;
   margin: 0px 20px;
 }
@@ -76,13 +77,13 @@ body {
   margin: 0px 30px;
 }
 .u-styling1 {
-  color: #757a79;
+  color: #fff;
   list-style: none;
 }
 
 .days {
   text-align: center;
-  color: #757a79;
+  color: #fff;
   margin-bottom: 20px;
 }
 .f-size {
@@ -90,6 +91,7 @@ body {
 }
 #deg {
   font-size: 30px;
+  color: #fff;
 }
 .image {
   margin-left: 5px;
